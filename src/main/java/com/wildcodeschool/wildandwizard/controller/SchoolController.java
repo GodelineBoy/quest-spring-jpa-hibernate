@@ -40,6 +40,7 @@ public class SchoolController {
     			school = optionalSchool.get();
     		}
     	}
+    	model.addAttribute("school", school);
         return "school";
     }
 
